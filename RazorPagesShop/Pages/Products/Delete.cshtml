@@ -1,0 +1,58 @@
+@page
+@model Shop.Pages_Products.DeleteModel
+
+@{
+  ViewData["Title"] = "Izbriši";
+}
+
+<h1>Izbriši</h1>
+
+<h3>Jeste li sigurni da želite izbrisat proizvod?</h3>
+<div>
+  <h4>Product</h4>
+  <hr />
+  <dl class="row">
+    <dt class="col-sm-2">
+      @Html.DisplayNameFor(model => model.Product.Title)
+    </dt>
+    <dd class="col-sm-10">
+      @Html.DisplayFor(model => model.Product.Title)
+    </dd>
+    <dt class="col-sm-2">
+      @Html.DisplayNameFor(model => model.Product.Description)
+    </dt>
+    <dd class="col-sm-10">
+      @Html.DisplayFor(model => model.Product.Description)
+    </dd>
+    <dt class="col-sm-2">
+      @Html.DisplayNameFor(model => model.Product.Price)
+    </dt>
+    <dd class="col-sm-10">
+      @Html.DisplayFor(model => model.Product.Price)
+    </dd>
+    <dt class="col-sm-2">
+      @Html.DisplayNameFor(model => model.Product.Quantity)
+    </dt>
+    <dd class="col-sm-10">
+      @Html.DisplayFor(model => model.Product.Quantity)
+    </dd>
+    <dt class="col-sm-2">
+      @Html.DisplayNameFor(model => model.Product.OnSale)
+    </dt>
+    <dd class="col-sm-10">
+      @Html.DisplayFor(model => model.Product.OnSale)
+    </dd>
+    <dt class="col-sm-2">
+      @Html.DisplayNameFor(model => model.Product.SalePrice)
+    </dt>
+    <dd class="col-sm-10">
+      @Html.DisplayFor(model => model.Product.SalePrice)
+    </dd>
+  </dl>
+
+  <form method="post">
+    <input type="hidden" asp-for="Product.Id" />
+    <input type="submit" value="Delete" class="btn btn-danger" /> |
+    <a asp-page="./Index">Back to List</a>
+  </form>
+</div>

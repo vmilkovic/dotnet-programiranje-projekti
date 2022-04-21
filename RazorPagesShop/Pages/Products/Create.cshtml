@@ -1,0 +1,60 @@
+@page
+@model Shop.Pages_Products.CreateModel
+
+@{
+  ViewData["Title"] = "Stvori";
+}
+
+<h1>Stvori</h1>
+
+<h4>Prozvod</h4>
+<hr />
+<div class="row">
+  <div class="col-md-4">
+    <form method="post">
+      <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+      <div class="form-group">
+        <label asp-for="Product.Title" class="control-label"></label>
+        <input asp-for="Product.Title" class="form-control" />
+        <span asp-validation-for="Product.Title" class="text-danger"></span>
+      </div>
+      <div class="form-group">
+        <label asp-for="Product.Description" class="control-label"></label>
+        <input asp-for="Product.Description" class="form-control" />
+        <span asp-validation-for="Product.Description" class="text-danger"></span>
+      </div>
+      <div class="form-group">
+        <label asp-for="Product.Price" class="control-label"></label>
+        <input asp-for="Product.Price" class="form-control" />
+        <span asp-validation-for="Product.Price" class="text-danger"></span>
+      </div>
+      <div class="form-group">
+        <label asp-for="Product.Quantity" class="control-label"></label>
+        <input asp-for="Product.Quantity" class="form-control" />
+        <span asp-validation-for="Product.Quantity" class="text-danger"></span>
+      </div>
+      <div class="form-group form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" asp-for="Product.OnSale" /> @Html.DisplayNameFor(model =>
+          model.Product.OnSale)
+        </label>
+      </div>
+      <div class="form-group">
+        <label asp-for="Product.SalePrice" class="control-label"></label>
+        <input asp-for="Product.SalePrice" class="form-control" />
+        <span asp-validation-for="Product.SalePrice" class="text-danger"></span>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Stvori" class="btn btn-primary" />
+      </div>
+    </form>
+  </div>
+</div>
+
+<div>
+  <a asp-page="Index">Nazad</a>
+</div>
+
+@section Scripts {
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
