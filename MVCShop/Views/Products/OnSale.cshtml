@@ -1,0 +1,12 @@
+@model IEnumerable<Shop.Models.Product>
+
+@{
+    ViewData["Title"] = "On Sale";
+}
+
+<h1>On Sale</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<partial name="_ProductTable" />
