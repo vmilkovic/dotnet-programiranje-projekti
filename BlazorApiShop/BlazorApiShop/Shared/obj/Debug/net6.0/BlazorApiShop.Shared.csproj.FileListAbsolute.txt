@@ -1,0 +1,12 @@
+D:\dotnet\dotnet-programiranje-projekti\BlazorApiShop\BlazorApiShop\Shared\bin\Debug\net6.0\BlazorApiShop.Shared.deps.json
+D:\dotnet\dotnet-programiranje-projekti\BlazorApiShop\BlazorApiShop\Shared\bin\Debug\net6.0\BlazorApiShop.Shared.dll
+D:\dotnet\dotnet-programiranje-projekti\BlazorApiShop\BlazorApiShop\Shared\bin\Debug\net6.0\BlazorApiShop.Shared.pdb
+D:\dotnet\dotnet-programiranje-projekti\BlazorApiShop\BlazorApiShop\Shared\obj\Debug\net6.0\BlazorApiShop.Shared.csproj.AssemblyReference.cache
+D:\dotnet\dotnet-programiranje-projekti\BlazorApiShop\BlazorApiShop\Shared\obj\Debug\net6.0\BlazorApiShop.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\dotnet-programiranje-projekti\BlazorApiShop\BlazorApiShop\Shared\obj\Debug\net6.0\BlazorApiShop.Shared.AssemblyInfoInputs.cache
+D:\dotnet\dotnet-programiranje-projekti\BlazorApiShop\BlazorApiShop\Shared\obj\Debug\net6.0\BlazorApiShop.Shared.AssemblyInfo.cs
+D:\dotnet\dotnet-programiranje-projekti\BlazorApiShop\BlazorApiShop\Shared\obj\Debug\net6.0\BlazorApiShop.Shared.csproj.CoreCompileInputs.cache
+D:\dotnet\dotnet-programiranje-projekti\BlazorApiShop\BlazorApiShop\Shared\obj\Debug\net6.0\BlazorApiShop.Shared.dll
+D:\dotnet\dotnet-programiranje-projekti\BlazorApiShop\BlazorApiShop\Shared\obj\Debug\net6.0\refint\BlazorApiShop.Shared.dll
+D:\dotnet\dotnet-programiranje-projekti\BlazorApiShop\BlazorApiShop\Shared\obj\Debug\net6.0\BlazorApiShop.Shared.pdb
+D:\dotnet\dotnet-programiranje-projekti\BlazorApiShop\BlazorApiShop\Shared\obj\Debug\net6.0\ref\BlazorApiShop.Shared.dll
